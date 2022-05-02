@@ -1,0 +1,94 @@
+html {
+	font-size: 62.5%; /* rem px equivalent */
+	box-sizing: border-box; /* margin+ padding + widht = total */
+}
+*, *:before, *:after {   /* margin+ padding + widht = total */
+	box-sizing: inherit; /* margin+ padding + widht = total */
+} /* margin+ padding + widht = total */
+
+/*End */
+
+/* set margin to zero */
+*, *:before, *:after {
+    margin:0; 
+    padding:0;
+  }
+
+body {
+    font-family: 'open sans', sans-serif;
+    background-color: #1f2132;
+
+}
+.app-header {
+    width:100%;
+    font-size: 1.4rem;
+    color: #5dc8aa;
+    background-color: #262b3d;
+}
+h2.app-header {
+    padding-left: 1.5rem;
+    font-weight: 700;
+    padding-top: 0.5rem;
+}
+
+h5.app-header{
+    padding-left: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+#match, #classification1, #class {
+    width: 65rem;
+    height: 50rem;
+    padding-bottom: 2rem;
+} 
+
+#area {
+    padding-bottom: 2rem;
+    width: 130rem;
+}
+
+#classification1 {
+    width: 70rem;
+    height: 50rem;
+    padding-bottom: 2rem;
+}
+
+#classification2 {
+    width: 65rem;
+    height: 50rem;
+    padding-bottom: 2rem;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.header, .footer, .area1 {
+    grid-column: 1 / -1;
+}
+
+.footer {
+    width:100%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #262b3d;
+    background-color: #262b3d;
+    
+}
+
+.image {
+    background-image: url("khoka.png");
+    width:100rem;
+    height:6rem;
+    background-repeat: no-repeat;
+}
+
+.header {
+    padding-top:2rem;
+    padding-left: 2rem;
+}
+
+
